@@ -1,0 +1,43 @@
+table{
+    padding: 10px;
+    border-radius: 20px;
+}
+td{
+    padding: 10px;
+    text-align: center;
+}
+th{
+    padding: 10px;
+    text-align: center;
+}
+a{
+    display: row;
+    flex-direction: row;
+    justify-content:space-around;
+    padding-left: 80px;
+    padding-right: 80px;
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    text-decoration: white;
+}
+a:hover{
+    color: red;
+}
+.formulaire{
+    border: 2px solid rgb(29, 37, 47);
+    /*margin-right: 550px;*/
+    margin-left: 400px;
+    margin-right: 400px;
+    padding-left: 100px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: minmax(50px, auto);
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.titre{
+    margin-left: -20px;
+    padding-top: 90px;
+    padding-right: 30px;
+}
